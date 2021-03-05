@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- VIEW 2 Add new type-->
+    <meta charset="UTF-8">
+    <meta name="keywords" content="SkateShop"/>
+    <meta name="author" content="Juris Lavrinovics 174604"/>
+
+    <title>SkateShop Web-Page</title>
+
+    <link rel="stylesheet" href="../../styles.css"/>
+    <link rel="stylesheet" href="add_type.css"/>
+    <script src="../../script.js" defer="defer"></script>
+    <script type="module" src="add_type.js" defer="defer"></script>
+</head>
+
+<body>
+<div class="container">
+
+    <header class="header">
+        <h1>Skate Shop Application </h1>
+    </header>
+
+    <nav class="navigation-bar">
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../list_types/list_types.html">Types</a></li>
+        </ul>
+    </nav>
+
+    <section class="main-section">
+        <article class="text--justified">
+            <header><h2>Add new type</h2></header>
+            <form class="addType__form" id="addForm">
+                <label for="type">Type:</label>
+                <input class="ui-control ui-input" id="type" name="name"/>
+
+                <label for="avgSpeed">Avg. Speed:</label>
+                <input class="ui-control ui-input" id="avgSpeed" name="avgSpeed" type="number" step="any"/>
+
+                <label for="maxWeight">Max Weight:</label>
+                <input class="ui-control" id="maxWeight" name="maxWeight" type="number"/>
+
+                <input id="addButton" class="ui-control ui-button" type="submit" value="Add"/>
+            </form>
+        </article>
+    </section>
+
+    <footer class="footer">
+        <p>Copyright &copy; 2020, Juris Lavrinovics</p>
+    </footer>
+</div>
+</body>
+</html>

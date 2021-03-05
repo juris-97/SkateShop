@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- VIEW 3-->
+    <meta charset="UTF-8">
+    <meta name="keywords" content="SkateShop"/>
+    <meta name="author" content="Juris Lavrinovics 174604"/>
+
+    <title>SkateShop Web-Page</title>
+
+    <link rel="stylesheet" href="../../styles.css"/>
+    <link rel="stylesheet" href="edit_type.css"/>
+    <script src="../../script.js" defer="defer"></script>
+    <script type="module" src="edit_type.js" defer="defer"></script>
+</head>
+
+<body>
+<div class="container">
+
+    <header class="header">
+        <h1>Skate Shop Application </h1>
+    </header>
+
+    <nav class="navigation-bar">
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../list_types/list_types.html">Types</a></li>
+        </ul>
+    </nav>
+
+    <section class="main-section">
+        <article class="text--justified">
+            <header><h2>Edit type</h2></header>
+            <form class="editType__form" id="editForm">
+                <label for="avgSpeed">Avg. Speed:</label>
+                <input class="ui-control ui-input" id="avgSpeed" name="avgSpeed" type="number" step="any"/>
+
+                <label for="maxWeight">Max Weight:</label>
+                <input class="ui-control" id="maxWeight" name="maxWeight" type="number" step="any"/>
+
+                <input id="editButton" class="ui-control ui-button" type="submit" value="Edit"/>
+            </form>
+        </article>
+    </section>
+
+    <footer class="footer">
+        <p>Copyright &copy; 2020, Juris Lavrinovics</p>
+    </footer>
+</div>
+</body>
+</html>

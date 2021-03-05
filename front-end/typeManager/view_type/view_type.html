@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- VIEW 4. view specific type -->
+    <meta charset="UTF-8"/>
+    <meta name="keywords" content="Skate"/>
+    <meta name="author" content="Juris Lavrinovics"/>
+
+    <title>SkateShop Web-Application</title>
+
+    <link rel="stylesheet" href="../../styles.css"/>
+    <link rel="stylesheet" href="view_type.css"/>
+    <script src="../../script.js" defer="defer"></script>
+    <script type="module" src="view_type.js" defer="defer"></script>
+</head>
+<body>
+
+<div class="container">
+    <header class="header">
+        <h1>Skate Shop Application</h1>
+    </header>
+
+    <nav class="navigation-bar">
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../list_types/list_types.html">Types</a></li>
+        </ul>
+    </nav>
+
+    <section class="main-section">
+        <article class="text--justified">
+            <header><h2 id="type">type</h2></header>
+            <section>
+                <h3>Details:</h3>
+                <div class="details-grid">
+                    <label for="avgSpeed">Avg Speed:</label><span id="avgSpeed">avgSpeed</span>
+                    <label for="maxWeight">Max Weight:</label><span id="maxWeight">maxWeight</span>
+                </div>
+            </section>
+            <section>
+                <br>
+                <h3>Skateboards</h3>
+                <table class="data-table">
+                    <thead>
+                    <tr>
+                        <th>name</th>
+                        <th>view</th>
+                        <th>edit</th>
+                        <th>delete</th>
+                    </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                    <tr>
+                        <td>name</td>
+                        <td><a href="#">view</a></td>
+                        <td><a href="#">edit</a></td>
+                        <td>
+                            <button class="ui-button ui-control">delete</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <button id="addSkateboard">Add</button>
+            </section>
+        </article>
+    </section>
+
+    <footer class="footer">
+        <p>Copyright &copy; 2020, Juris Lavrinovics</p>
+    </footer>
+</div>
+
+</body>
+</html>
