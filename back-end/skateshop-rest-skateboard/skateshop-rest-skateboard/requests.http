@@ -1,0 +1,53 @@
+GET http://localhost:8082/api/types/Skateboard/skateboards
+
+###
+
+GET http://localhost:8082/api/types/Skateboard/skateboards/3
+
+###
+
+GET http://localhost:8082/api/types/Longboard/skateboards
+
+###
+
+GET http://localhost:8082/api/types/Penny/skateboards/6
+
+###
+
+GET http://localhost:8082/api/types/Longboard/skateboards/1
+
+###
+
+GET http://localhost:8082/api/types/Longboard/skateboards
+
+###
+
+POST http://localhost:8082/api/types/Longboard/skateboards
+Content-Type: application/json
+
+{
+  "name": "TestSkateboard",
+  "producer": "TestProducer",
+  "price": 90.0
+}
+
+###
+
+DELETE http://localhost:8082/api/types/Longboard/skateboards/8
+
+###
+
+PUT http://localhost:8082/api/types/Longboard/skateboards/8
+Content-Type: application/json
+
+{
+  "name": "UpdatedTestSkateboard",
+  "producer": "UpdatedTestProducer",
+  "price": 40.0
+}
+
+###
+
+GET http://localhost:8082/api/types/Longboard/skateboards/8
+
+###

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/back-end.iml" filepath="$PROJECT_DIR$/.idea/back-end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skateshop-rest-gateway/skateshop-rest-gateway/skateshop-rest-gateway.iml" filepath="$PROJECT_DIR$/skateshop-rest-gateway/skateshop-rest-gateway/skateshop-rest-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skateshop-rest-skateboard/skateshop-rest-skateboard/skateshop-rest-skateboard.iml" filepath="$PROJECT_DIR$/skateshop-rest-skateboard/skateshop-rest-skateboard/skateshop-rest-skateboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skateshop-rest-type/skateshop-rest-type/skateshop-rest-type.iml" filepath="$PROJECT_DIR$/skateshop-rest-type/skateshop-rest-type/skateshop-rest-type.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,74 @@
+GET http://localhost:8081/api/types
+
+###
+
+GET http://localhost:8081/api/types/Longboard
+
+###
+
+GET http://localhost:8081/api/types/Skateboard
+
+###
+
+GET http://localhost:8081/api/types/Scooter
+
+###
+
+GET http://localhost:8081//api/types/Penny
+
+###
+
+GET http://localhost:8081/api/types/Cruiser
+
+###
+
+GET http://localhost:8081/api/types/Electroboard
+
+###
+
+POST http://localhost:8081/api/types
+Content-Type: application/json
+
+{
+  "typeName": "Electroboard",
+  "avgSpeed": 50.0,
+  "maxWeight": 140
+}
+
+###
+
+POST http://localhost:8081//api/types
+Content-Type: application/json
+
+{
+"typeName": "Electroboard",
+"avgSpeed": "a50.0",
+"maxWeight": 140
+}
+
+###
+PUT http://localhost:8081//api/types/Electroboard
+Content-Type: application/json
+
+{
+  "avgSpeed": 40.0,
+  "maxWeight": 160
+}
+
+###
+PUT http://localhost:8081//api/types/Howerboard
+Content-Type: application/json
+
+{
+  "avgSpeed": 63.0,
+  "maxWeight": 80
+}
+
+###
+DELETE http://localhost:8081//api/types/Longboard
+
+###
+DELETE http://localhost:8081//api/types/Electroboard
+
+###
+DELETE http://localhost:8081//api/types/Howerboard

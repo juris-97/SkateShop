@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="skateshop-rest-type" />
+        <module name="skateshop-rest-skateboard" />
+        <module name="skateshop-rest-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="skateshop-rest-gateway" target="11" />
+      <module name="skateshop-rest-skateboard" target="11" />
+      <module name="skateshop-rest-type" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="skateshop-rest-gateway" options="-parameters" />
+      <module name="skateshop-rest-skateboard" options="-parameters" />
+      <module name="skateshop-rest-type" options="-parameters" />
+    </option>
+  </component>
+</project>
